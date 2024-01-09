@@ -1,0 +1,146 @@
+text.region-name {
+    pointer-events: none; /*讓鼠標移動到地區名稱時不會變成輸入符號*/
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* 防止整個頁面出現水平滾動條 */
+  }
+  
+  .map-container {
+    width: 100%; /* 確保容器寬度不會超過100% */
+    height: 90vh; /* 根據需要調整高度 */
+    overflow: hidden; /* 防止內部元素超出邊界 */
+  }
+  
+  .map-container svg {
+    display: block; /* 防止 svg 元素佔用額外空間 */
+    max-width: 100%; /* 限制 svg 寬度 */
+    height: auto; /* 確保 svg 高度比例適當 */
+  }
+
+
+.region-name-cell {
+    font-weight: bold; /* 加粗字體 */
+}
+.allback{
+    background-color: #4f4f4f; /* 背景顏色設定為深灰色 */
+}
+
+/* 設定表格的背景顏色 */
+table {
+    background-color: #333; /* 背景顏色為深灰色 */
+    color: #fff; /* 文字顏色為白色 */
+}
+
+/* 設定表頭樣式 */
+th {
+    background-color: #555; /* 背景顏色為深灰色 */
+}
+
+/* 設定表格和表頭、儲存格的邊框樣式 */
+table,
+th,
+td {
+    border: 1px solid #fff; /* 邊框顏色為白色 */
+}
+
+/* 設定紅色文字的樣式 */
+.red-text {
+    color: red; /* 文字顏色為紅色 */
+}
+
+.world{
+    font-size: 2.5rem; /* 字體大小 */
+    font-weight:bolder; /* 字型加粗 */
+}
+
+.left-container {
+    width: 50%; /* 容器寬度為父元素的50% */
+    height: 800px; /* 容器高度設定為800像素 */
+    overflow: hidden; /* 隱藏溢出的內容 */
+}
+
+
+
+.domain-display {
+    color: white; /* 文字顏色為白色 */
+    font-size: 1.5em; /* 字體大小為1.5em */
+    font-weight: bold; /* 字體加粗 */
+}
+
+.table-auto-width {
+    width: 100%; /* 表格寬度為100% */
+    border-collapse: collapse; /* 邊框合併 */
+}
+
+/*表格字體*/
+.table-auto-width td {
+    font-size: 16px;
+    border: 1px solid #ddd; /* 儲存格邊框顏色為淺灰色 */
+    padding: 4px; /* 儲存格內邊距為7像素 */
+}
+
+/* 設定偵測網域名稱輸入框標題的顏色 */
+.domain-input-title {
+    color: white; /* 文字顏色為白色 */
+}
+
+/* 下方是設定特定時間範圍顏色的樣式 */
+.color-green {
+    color: #6ECC50; /* 設定文字顏色 < 1.5 */
+}
+.color-light-green {
+    color: #ACD357; /* 設定文字顏色 < 2.5 */
+}
+.color-beige {
+    color: #F9C764; /* 設定文字顏色 < 3.5 */
+}
+.color-orange {
+    color: #FF9545; /* 設定文字顏色 < 4.5 */
+}
+.color-red {
+    color: #E0414C; /* 設定文字顏色 */
+}
+
+/*彈出視窗的樣式*/
+
+/* 调整檢測框的大小 */
+.modal-dialog {
+    width: 200px; /* 或者你想要的宽度 */
+  }
+  
+  /* 調整檢測框内容的樣式 */
+  .modal-content {
+    padding: 20px; /* 增加内邊距 */
+    text-align: center; /* 文本置中 */
+  }
+  
+  /* 調整模態視窗內部文字的樣式 */
+  #countdown {
+    font-size: 18px; /* 字體大小 */
+    font-weight: bold; /* 粗體 */
+  }
+
+  /*電信、聯通、移動文字顏色*/
+.white-label {
+    color: white;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: rgba(200, 200, 200, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 15px;
+    z-index: 999;
+    opacity: 0;
+}
+
