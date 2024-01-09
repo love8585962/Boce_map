@@ -6,4 +6,6 @@
 可自由勾選要檢測的電信 例如:電信、聯通、移動  
 
 成果範例:
-![image](https://github.com/love8585962/Boce_map/blob/main/boce_result.png)
+![image](https://github.com/love8585962/Boce_map/blob/main/boce_result.png)  
+
+![image](https://github.com/love8585962/Boce_map/blob/main/boce_result2.png)
